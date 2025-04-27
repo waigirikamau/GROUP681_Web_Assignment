@@ -36,5 +36,5 @@ Consistent participation earns bonus points and recognition.
 
 
 
-Recreate the above portfolio website as is using HTML and CSS.
+Recreate the above portfolio website as is using HTML and CSS. NOTE; Confirm the websites specification from the assignment tab on your lms
 Feel free to use bootstrap library
