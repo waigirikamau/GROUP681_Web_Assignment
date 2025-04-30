@@ -1,1 +1,574 @@
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Watson - UI Designer & Web Developer</title>
+    <meta name="description" content="Portfolio of John Watson - UI Designer & Web Developer based in UK" />
+    <meta name="author" content="John Watson" />
+
+    <meta property="og:title" content="John Watson - UI Designer & Web Developer" />
+    <meta property="og:description" content="Portfolio of John Watson - UI Designer & Web Developer based in UK" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@johnwatson" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container navbar-container">
+        <a href="#" class="logo">
+          <span>UI</span> Portfolio
+        </a>
+
+        <button class="menu-toggle" id="menuToggle">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+
+        <div class="navbar-links" id="navLinks">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#">Blog ↓</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+          <a href="#" class="btn-hire">Hire Me</a>
+          <button class="btn-search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container hero-container">
+        <div class="hero-content animated fade-in slide-left">
+          <p class="mb-2">Hi, I'm Kev Kamau</p>
+          <h1 class="hero-title">
+            <span>Web</span> Developer
+          </h1>
+          <p class="hero-description">
+            I create Digital Design and Photography and have been working as a UI Portfolio 
+            Designer for 10+ years & I gained experience with large worldwide clients.
+          </p>
+          <div class="hero-buttons">
+            <a href="#" class="btn-hire animated-btn">Hire Me</a>
+            <a href="#portfolio" class="btn-outline animated-btn">My Portfolio</a>
+          </div>
+        </div>
+        <div class="hero-image-container animated fade-in slide-right">
+          <img src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=600" alt="John Watson" class="hero-image">
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container about-container">
+        <div class="about-image-container">
+          <img src="https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&w=600" alt="John Watson Profile" class="about-image">
+        </div>
+        <div class="about-content">
+          <h5>ABOUT ME</h5>
+          <h2>A Lead UI Designer & Web Developer Based in Kenya</h2>
+          <p>
+            I design and develop services for customers of all sizes, specializing in creating stylish, 
+            modern websites, web services and online stores. My passion is to design digital user experiences 
+            through the bold interface and meaningful interactions.
+          </p>
+          
+          <div class="about-details">
+            <div class="detail-item">
+              <p>Name:</p>
+              <p class="font-medium">Kelvin Kamau</p>
+            </div>
+            <div class="detail-item">
+              <p>Email:</p>
+              <p class="font-medium">wa2@outlook.com</p>
+            </div>
+            <div class="detail-item">
+              <p>Phone:</p>
+              <p class="font-medium">+254 708403670</p>
+            </div>
+            <div class="detail-item">
+              <p>From:</p>
+              <p class="font-medium">Nairobi, Kenya</p>
+            </div>
+          </div>
+          
+          <p class="mb-3">Follow me on</p>
+          <div class="social-links">
+            <a href="#" class="social-link facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link linkedin">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+              </svg>
+            </a>
+          </div>
+          
+          <div class="mt-4">
+            <a href="#" class="btn-hire me-3">Download CV</a>
+            <a href="#contact" class="btn-outline" style="color: var(--primary); border-color: var(--primary);">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header">
+          <h2>What I Do For You</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-item">
+            <svg class="service-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            <h3 class="service-title">Web Development</h3>
+            <p>I build websites that are both functional and beautiful. I create simple interfaces that users love to interact with.</p>
+          </div>
+          
+          <div class="service-item">
+            <svg class="service-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+            </svg>
+            <h3 class="service-title">App Development</h3>
+            <p>I create mobile applications that meet your business needs. I focus on intuitive, responsive designs for iOS and Android.</p>
+          </div>
+          
+          <div class="service-item">
+            <svg class="service-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+            <h3 class="service-title">Photography</h3>
+            <p>I capture moments that tell your brand's story. High-quality photography that showcases your products and services.</p>
+          </div>
+        </div>
+        
+        <div class="services-footer">
+          <a href="#" class="link-more">
+            More Services
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ms-2">
+              <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="container skills-container">
+        <div class="skills-image-container">
+          <img src="https://images.pexels.com/photos/18096282/pexels-photo-18096282/free-photo-of-website-displayed-on-a-laptop-standing-on-a-wooden-table.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Skills" class="skills-image">
+        </div>
+        <div class="skills-content">
+          <h2>My Featured Skills</h2>
+          
+          <p>
+            I specialize in Branding and Strategy, and am passionate about creating memorable brand identities. 
+            I've founded my own studio in 2012, I help companies reach their goals by using cutting edge technologies.
+          </p>
+          
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="font-medium">UI/UX Design</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="font-medium">Web Development</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="font-medium">Graphic Design</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 75%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="font-medium">Digital Marketing</span>
+                <span>65%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 65%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section class="expertise" id="expertise">
+      <div class="container">
+        <div class="expertise-grid">
+          <div class="expertise-item">
+            <svg class="expertise-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            <h3 class="expertise-title">Web Development</h3>
+            <p class="expertise-description">Modern and mobile-ready website that will help you reach all of your marketing.</p>
+          </div>
+          
+          <div class="expertise-item">
+            <svg class="expertise-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+            </svg>
+            <h3 class="expertise-title">Design Tools</h3>
+            <p class="expertise-description">Standard designing tools like Sketch, Adobe XD, Figma and more plugins.</p>
+          </div>
+          
+          <div class="expertise-item">
+            <svg class="expertise-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+            </svg>
+            <h3 class="expertise-title">Research & Analysis</h3>
+            <p class="expertise-description">Understanding project requirements to deliver the best possible solutions.</p>
+          </div>
+          
+          <div class="expertise-item">
+            <svg class="expertise-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+            <h3 class="expertise-title">Responsive design</h3>
+            <p class="expertise-description">Building responsive websites that work on any device and screen size.</p>
+          </div>
+          
+          <div class="expertise-item">
+            <svg class="expertise-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            <h3 class="expertise-title">Customer support</h3>
+            <p class="expertise-description">Fast and reliable support to keep your website running smoothly.</p>
+          </div>
+          
+          <div class="expertise-item">
+            <svg class="expertise-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+            </svg>
+            <h3 class="expertise-title">SEO Design</h3>
+            <p class="expertise-description">SEO-friendly code to ensure your website ranks well in search results.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats" id="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-icon">📊</div>
+            <h3 class="stat-number" data-count="135">0</h3>
+            <p class="stat-label">Projects Completed</p>
+          </div>
+          
+          <div class="stat-item">
+            <div class="stat-icon">🤝</div>
+            <h3 class="stat-number" data-count="225">0</h3>
+            <p class="stat-label">Satisfied Clients</p>
+          </div>
+          
+          <div class="stat-item">
+            <div class="stat-icon">🏆</div>
+            <h3 class="stat-number" data-count="115">0</h3>
+            <p class="stat-label">Awards Won</p>
+          </div>
+          
+          <div class="stat-item">
+            <div class="stat-icon">☕</div>
+            <h3 class="stat-number" data-count="272">0</h3>
+            <p class="stat-label">Cups of Coffee</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Success Work</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="portfolio-grid">
+          <div class="portfolio-item">
+            <img src="https://images.pexels.com/photos/109371/pexels-photo-109371.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Website Design" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3 class="portfolio-title">Website Design</h3>
+              <p class="portfolio-category">Web Design</p>
+            </div>
+          </div>
+          
+          <div class="portfolio-item">
+            <img src="https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mobile App" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3 class="portfolio-title">Mobile App</h3>
+              <p class="portfolio-category">App Development</p>
+            </div>
+          </div>
+          
+          <div class="portfolio-item">
+            <img src="https://images.pexels.com/photos/7661590/pexels-photo-7661590.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Brand Identity" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3 class="portfolio-title">Brand Identity</h3>
+              <p class="portfolio-category">Branding</p>
+            </div>
+          </div>
+          
+          <div class="portfolio-item">
+            <img src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600" alt="E-commerce Website" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3 class="portfolio-title">E-commerce Website</h3>
+              <p class="portfolio-category">Web Development</p>
+            </div>
+          </div>
+          
+          <div class="portfolio-item">
+            <img src="data:image/png;base64,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" alt="UI Design System" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3 class="portfolio-title">UI Design System</h3>
+              <p class="portfolio-category">UI/UX</p>
+            </div>
+          </div>
+          
+          <div class="portfolio-item">
+            <img src="data:image/jpeg;base64,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" alt="Photography" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3 class="portfolio-title">Photography</h3>
+              <p class="portfolio-category">Photography</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certification Section -->
+    <section class="certification">
+      <div class="container certification-container">
+        <div class="certification-item">
+          <div class="certification-icon-bg">
+            <svg class="certification-icon" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm0-2a6 6 0 100-12 6 6 0 000 12z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <p class="certification-name">Award</p>
+        </div>
+        
+        <div class="certification-item">
+          <div class="certification-icon-bg">
+            <svg class="certification-icon" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm0-2a6 6 0 100-12 6 6 0 000 12z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <p class="certification-name">Experience</p>
+        </div>
+        
+        <div class="certification-item">
+          <div class="certification-icon-bg">
+            <svg class="certification-icon" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm0-2a6 6 0 100-12 6 6 0 000 12z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <p class="certification-name">Quality</p>
+        </div>
+        
+        <div class="certification-item">
+          <div class="certification-icon-bg">
+            <svg class="certification-icon" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm0-2a6 6 0 100-12 6 6 0 000 12z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <p class="certification-name">Support</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+      <div class="container footer-container">
+        <a href="#" class="footer-logo">
+          <span>UI</span> Portfolio
+        </a>
+        
+        <div class="footer-links">
+          <a href="#" class="footer-link">Privacy policy</a>
+          <span class="footer-divider">|</span>
+          <a href="#" class="footer-link">Terms and conditions</a>
+          <span class="footer-divider">|</span>
+          <a href="#" class="footer-link">© Designed by UI Portfolio, All rights reserved</a>
+        </div>
+        
+        <div class="footer-social">
+          <a href="#" class="footer-social-link">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/>
+            </svg>
+          </a>
+          <a href="#" class="footer-social-link">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/>
+            </svg>
+          </a>
+          <a href="#" class="footer-social-link">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/>
+            </svg>
+          </a>
+          <a href="#" class="footer-social-link">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      
+      <button class="back-to-top" id="backToTop">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+      </button>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      const menuToggle = document.getElementById('menuToggle');
+      const navLinks = document.getElementById('navLinks');
+      
+      menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+      });
+      
+      // Back to top button
+      const backToTopButton = document.getElementById('backToTop');
+      
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+          backToTopButton.style.display = 'flex';
+        } else {
+          backToTopButton.style.display = 'none';
+        }
+      });
+      
+      backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+      
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+          
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+          
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            targetElement.scrollIntoView({
+              behavior: 'smooth'
+            });
+            
+            // Close mobile menu if open
+            if (navLinks.classList.contains('active')) {
+              navLinks.classList.remove('active');
+            }
+          }
+        });
+      });
+
+      // Stats counter animation
+      document.addEventListener('DOMContentLoaded', function() {
+        const statsSection = document.getElementById('stats');
+        const statNumbers = document.querySelectorAll('.stat-number');
+        let animated = false;
+        
+        function animateStats() {
+          statNumbers.forEach(statNumber => {
+            const target = parseInt(statNumber.getAttribute('data-count'));
+            const current = parseInt(statNumber.textContent);
+            
+            if (current < target) {
+              const increment = Math.max(1, Math.floor(target / 50));
+              const newValue = Math.min(current + increment, target);
+              statNumber.textContent = newValue;
+              
+              if (newValue < target) {
+                setTimeout(() => animateStats(), 30);
+              }
+            }
+          });
+        }
+        
+        function checkIfInView() {
+          const rect = statsSection.getBoundingClientRect();
+          const isInView = (
+            rect.top <= window.innerHeight * 0.75 &&
+            rect.bottom >= 0
+          );
+          
+          if (isInView && !animated) {
+            animated = true;
+            animateStats();
+          }
+        }
+        
+        window.addEventListener('scroll', checkIfInView);
+        checkIfInView(); // Check on load
+      });
+    </script>
+  </body>
+</html>
+
